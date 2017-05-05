@@ -40,7 +40,7 @@
 ```
 
 具体的就是使用一个帮助类，把 `UITableView` 的代理都丢到帮助类里面处理，因为最近痴迷于链式语法，就使用链式实现了一遍,一般简单的需求都可以用下，如果需要使用其他的代理方法，就自己再添加了。
-![](/img/tableviewDemo.png)
+![](https://raw.githubusercontent.com/yunisSong/MagicCode/master/Pic/tableviewDemo.png)
 
 #### UITableView 一句话空数据占位视图
 开发中，如果请求返回数据为空，需要有一视图提示用户，数据为空。这个是之前看陈一龙的微博看到的，自己就又实现了下。具体代码：
@@ -59,5 +59,5 @@
 
 我这边就显示了一个提示的文字，简单的实现了，如果需要显示美观的视图，自己修改下就可以用了，思路都是一样的。
 
-![](/img/tableviewEmptyDemo.png)
+![](https://raw.githubusercontent.com/yunisSong/MagicCode/master/Pic/tableviewEmptyDemo.png)
 
